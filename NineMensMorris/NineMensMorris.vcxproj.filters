@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Nine Men%27s Morris">
+      <UniqueIdentifier>{79024e0b-229b-43bf-a3e7-55439be72480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{ad9bb0dc-2c15-4047-b005-412d7f0d9c5e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="WndProc.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="TextSettings.c">
+      <Filter>Nine Men%27s Morris</Filter>
+    </ClCompile>
+    <ClCompile Include="TopTen.c">
+      <Filter>Nine Men%27s Morris</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.c">
+      <Filter>Nine Men%27s Morris</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameboard.c">
+      <Filter>Nine Men%27s Morris</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.c">
+      <Filter>Nine Men%27s Morris</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInput.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMouse.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Error.c">
+      <Filter>Nine Men%27s Morris</Filter>
+    </ClCompile>
+    <ClCompile Include=".\Savegame.c">
+      <Filter>Nine Men%27s Morris</Filter>
+    </ClCompile>
+    <ClCompile Include="GameGraphics.c">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.c">
+      <Filter>Nine Men%27s Morris</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NineMensMorris.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectSettings.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Nine Men%27s Morris</Filter>
+    </ClInclude>
+    <ClInclude Include="TextSettings.h">
+      <Filter>Nine Men%27s Morris</Filter>
+    </ClInclude>
+    <ClInclude Include="TopTen.h">
+      <Filter>Nine Men%27s Morris</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameboard.h">
+      <Filter>Nine Men%27s Morris</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h">
+      <Filter>Nine Men%27s Morris</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Nine Men%27s Morris</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>File di origine</Filter>
+    </ClInclude>
+    <ClInclude Include="Savegame.h">
+      <Filter>Nine Men%27s Morris</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>File di risorse</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Nine Men%27s Morris</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NineMensMorris.rc">
+      <Filter>File di risorse</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ICON.ico">
+      <Filter>File di risorse</Filter>
+    </None>
+  </ItemGroup>
+</Project>

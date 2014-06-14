@@ -1,0 +1,22 @@
+Ad ogni giocatore verranno assegnate nove pedine che saranno inizialmente fuori il tavoliere di gioco.
+Il tavoliere è composto da quadrati con grandezza decrescente, uno dentro l’altro, che saranno collegati da quattro linee che uniscono i quadrati; esse partiranno dalla metà della dimensione della linea più esterna sino alla metà della linea più interna formando una croce.  Ogni nodo sarà uno spazio dove le varie pedine potranno essere posizionate. Ogni quadrato quindi avrà 8 nodi.
+Una volta iniziato il gioco, i giocatori devono posizionare tutte le loro pedine sul tavolo da gioco una alla volta a turno su uno dei nodi non ancora occupati. Il giocatore avrà come obiettivo il tris, ovvero il posizionamento di tre pedine consecutive.
+
+Regole : 
+1) Le mosse devono essere alternate tra i giocatori. Non è possibile fare più di una mossa per turno.
+2) Il giocatore non può piazzare una pedina sopra un’altra pedina già piazzata.
+3) Le pedine fuori dal campo potranno essere piazzate in qualsiasi locazione libera.
+4) Finché ci saranno pedine sul campo, non sarà possibile spostare le pedine già piazzate.
+5) Dopo aver posizionato tutte le pedine sul tavoliere, il giocatore potrà spostare una delle sue pedine su uno dei nodi vuoti adiacenti.
+6) Le pedine possono essere posizionate obliquamente ma esse non valgono come punto; i tris valgono soltanto orizzontalmente e verticalmente.
+7) Se un giocatore compone un tris, gli verrà data la possibilità di eliminare una pedina avversaria a sua scelta nello stesso turno in cui ha piazzato la pedina.
+8) Se nel turno precedente è stato fatto un tris, lo stesso giocatore non potrà usare lo stesso tris per eliminare un’altra pedina avversaria.
+9) E’ possibile muovere una pedina appartenente ad un tris per poi riposizionarla nel punto precedente in un turno successivo per poter fare un altro tris.
+10) Il giocatore non può saltare un turno: sarà obbligato a muovere una pedina.
+11) Se non è disponibile nessun nodo vuoto attorno alla pedina che si vuole muovere, essa non potrà essere mossa.
+12) Se, secondo la regola 11 non è possibile muovere nessuna pedina, il giocatore viene eliminato.
+13) Se il giocatore rimuove la terz’ultima pedina dell’avversario, che quindi rimane con due pedine soltanto, quest’ultimo giocatore viene eliminato
+
+
+
+
